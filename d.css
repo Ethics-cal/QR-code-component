@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(189, 189, 218);
+}
+
+.qr-code-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures that the wrapper takes up the full height of the viewport */
+  }
+  
+  .qr-code-wrapper img {
+    max-width: 40%;
+    max-height: 40%;
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border: 40px solid white;
+    border-radius: 14px;
+    border-bottom-width: 164px;
+    
+  }
+
+  .qr-code-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* This ensures that the wrapper takes up the full height of the viewport */
+
+  }
+  
+  .qr-code-wrapper h3 {
+    font-size: 18px;
+    color: #555;
+    position: absolute;
+    top: 59%;
+    font-weight: bold;
+  }
+
+  .qr-code-wrapper p {
+    font-size: 14px;
+    color: #555;
+    position: absolute;
+    top: 70%;
+  }
